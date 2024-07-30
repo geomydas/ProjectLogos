@@ -1,0 +1,26 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.youtube {
+    background-color: #ff0000;
+    width: 25vw;
+    aspect-ratio: 1.5 / 1;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.triangle {
+    width:  25%; 
+    aspect-ratio: 1;
+    background-color: white;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+rotate: 90deg;
+margin-left: 5%;}
